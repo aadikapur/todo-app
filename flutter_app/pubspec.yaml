@@ -1,5 +1,5 @@
-name: flutter_app
-description: A new Flutter application.
+name: todo_app
+description: A To-Do App
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -21,6 +21,8 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  firebase_core:
+  cloud_firestore:
   flutter:
     sdk: flutter
 
